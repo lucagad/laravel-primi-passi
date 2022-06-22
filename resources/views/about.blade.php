@@ -23,16 +23,16 @@
             </a>
     
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="/" class="nav-link" aria-current="page">Home</a></li>
                 <li class="nav-item"><a href="/faq" class="nav-link">FAQs</a></li>
-                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="/about" class="nav-link active">About</a></li>
             </ul>
         </header>
     </div>
 
     <div class="container main">
-        <h2>Benvenuto, {{ $name}} {{ $surname }}</h2>
-        <p>La tua email è: {{ $email }}</p>
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse accusantium id animi similique eligendi fugiat unde dolor autem voluptates? Obcaecati enim corrupti exercitationem alias, iusto vero nihil eius omnis necessitatibus distinctio culpa facilis praesentium illum magnam aspernatur molestias maxime veniam sit officia quae! Ab ipsam suscipit fugiat reiciendis placeat numquam!</p>
     </div>
 
 </body>
